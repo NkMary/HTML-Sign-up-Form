@@ -16,13 +16,15 @@
             <div>
                 <span class="required-field">*</span>
                 <label for="firstname">Your First Name</label>
-                <input type="text" id="firstname" name="firstname" minlength="2" maxlength="35">
+                <input type="text" id="firstname" name="firstname" minlength="2" maxlength="35"><br><br>
                 <span class="required-field">*</span>
                 <label for="lastname">Your Last Name</label>
-                <input type="text" id="lastname" name="lastname" minlength="2" maxlength="35">
+                <input type="text" id="lastname" name="lastname" minlength="2" maxlength="35"><br><br>
                 <label for="age">Your Age</label>
-                <input type="number" name="age" id="age" min="21" max="120">
+                <input type="number" name="age" id="age" min="21" max="120"><br><br>
                 <h5>Must be 21 or older to enter the Contest</h5>
+                <label for="password">Your Secret Code (must be 6 alphanumeric characters)<span class="required-field">*</span></label>
+                <input type="password" id="password" name="password pattern="[0-9a-zA-Z]{6}" title="6-Character Alphanumeric Passcode" required>
             </div>
             <fieldset>
                 <legend>Your Contact Info</legend>
